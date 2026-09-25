@@ -6,7 +6,7 @@ I run [EAltitude](https://ealtitude.org), a one-person software and security con
 
 ## How I work with Claude Code
 
-Claude Code is my primary development tool. The practice around it matters more than the tool:
+Claude Code is my primary development tool. The practice around it matters more than the tool (the setup is public: [claude-code-setup](https://github.com/ericabell/claude-code-setup)):
 
 - **Plan first.** Every change starts as a written plan (current state, what changes and why, files affected) that I approve before any code is touched.
 - **Branch and review.** Work happens on a branch, and I review the full diff before merging. AI-generated code never ships unexamined.
@@ -35,6 +35,10 @@ Replaced a multi-day, error-prone process of copying traffic-model (Synchro/HCM)
 - Parser for traffic-model output feeding an asynchronous Django REST Framework + Celery/Redis pipeline
 - React/Vite/Tailwind frontend, encrypted file handling
 - Docker behind Traefik on Ansible-provisioned, hardened servers
+
+## Open source and tools
+
+- **[claude-code-setup](https://github.com/ericabell/claude-code-setup):** my Claude Code conventions, custom skills, hooks and MCP configuration, plus a real plan showing the plan-first workflow.
 
 ## Side projects
 
